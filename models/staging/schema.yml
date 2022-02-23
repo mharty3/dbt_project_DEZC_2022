@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+    - name: staging
+      database: data-eng-zoomcamp-339102
+      schema: trips_data_all
+
+      tables:
+        - name: green_tripdata_partitoned  # notice typo in spelling, will need to go back and fix
+        - name: yellow_tripdata_partitoned # notice typo in spelling, will need to go back and fix
+        - name: fhv_tripdata_partitoned
+
+
+
